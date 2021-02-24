@@ -5,8 +5,18 @@ using System.Text;
 
 namespace OOP
 {
-    public abstract class Figure
+    public abstract class Figure 
     {
-        protected abstract double Square();
+        
+        public double Length { get; set; }
+        public double Width { get; set; }
+        
+        public Figure(double lenght, double width)
+        {            
+            Lenght = lenght;
+            Width = width;
+        }
+        
+        protected abstract double Square();  
     }
 }
