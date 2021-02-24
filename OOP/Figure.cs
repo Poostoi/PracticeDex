@@ -7,7 +7,7 @@ namespace OOP
 {
     public abstract class Figure 
     {
-        
+        //
         public double Length { get; set; }
         public double Width { get; set; }
         
